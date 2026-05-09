@@ -1,0 +1,7 @@
+{
+  "collection": "财翼 NFA",
+  "maxSupply": 666,
+  "imageMode": "per-token animated SVG wrapper",
+  "baseGif": "https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@a558b6a/public/assets/logo1.gif",
+  "note": "Use the numbered metadata directory in Flap external JSON metadata mode. Do not use shared.json for production."
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="财翼 NFA #463">
+  <defs>
+    <clipPath id="rounded">
+      <rect width="1024" height="1024" rx="64" ry="64"/>
+    </clipPath>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#66f2ff"/>
+      <stop offset="52%" stop-color="#315dff"/>
+      <stop offset="100%" stop-color="#070914"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#66f2ff" stop-opacity="0.22"/>
+      <stop offset="52%" stop-color="#315dff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes rotateRing { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes breathe { 0%, 100% { opacity: .46; transform: scale(.985); } 50% { opacity: .92; transform: scale(1.018); } }
+      @keyframes scan { 0% { stroke-dashoffset: 19; } 100% { stroke-dashoffset: -241; } }
+      .base { filter: saturate(1.16) hue-rotate(161deg); }
+      .ring { transform-origin: 512px 512px; animation: rotateRing 19s linear infinite; }
+      .breath { transform-origin: 512px 512px; animation: breathe 7s ease-in-out infinite; }
+      .scan { animation: scan 8s linear infinite; }
+      .label { font-family: Inter, Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1024" height="1024" fill="#040711"/>
+    <image class="base" href="https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@a558b6a/public/assets/logo1.gif" x="0" y="0" width="1024" height="1024" preserveAspectRatio="xMidYMid slice"/>
+    <rect width="1024" height="1024" fill="url(#pulse)" class="breath"/>
+    <circle class="ring scan" cx="512" cy="512" r="437" fill="none" stroke="#315dff" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 36" opacity="0.78" filter="url(#glow)"/>
+    <circle class="ring" cx="512" cy="512" r="475" fill="none" stroke="#66f2ff" stroke-width="3" stroke-dasharray="24 60" opacity="0.5"/>
+    <path d="M92 214 C236 183, 302 293, 454 356" fill="none" stroke="#315dff" stroke-width="10" stroke-linecap="round" opacity="0.58" filter="url(#glow)"/>
+    <path d="M932 214 C788 149, 722 345, 570 356" fill="none" stroke="#66f2ff" stroke-width="8" stroke-linecap="round" opacity="0.58" filter="url(#glow)"/>
+    <rect x="20" y="20" width="984" height="984" rx="54" fill="none" stroke="url(#frame)" stroke-width="10" opacity="0.86"/>
+    <rect x="54" y="52" width="196" height="62" rx="31" fill="#050816" fill-opacity="0.74" stroke="#66f2ff" stroke-opacity="0.72"/>
+    <text class="label" x="80" y="92" fill="#ffffff" font-size="30" font-weight="800">#463</text>
+    <rect x="746" y="52" width="224" height="62" rx="31" fill="#050816" fill-opacity="0.74" stroke="#315dff" stroke-opacity="0.72"/>
+    <text class="label" x="774" y="92" fill="#315dff" font-size="24" font-weight="800">Signal</text>
+    <rect x="64" y="870" width="896" height="98" rx="30" fill="#030611" fill-opacity="0.72" stroke="#66f2ff" stroke-opacity="0.45"/>
+    <text class="label" x="94" y="914" fill="#ffffff" font-size="30" font-weight="900">财翼 NFA</text>
+    <text class="label" x="94" y="946" fill="#315dff" font-size="22" font-weight="700">Cosmic Cyan / Comet Line / Signal 10.0</text>
+    <text class="label" x="710" y="914" fill="#66f2ff" font-size="20" font-weight="800">Vault Yield</text>
+    <text class="label" x="710" y="946" fill="#b9c6e8" font-size="18">Claimable · CW-463-460314</text>
+  </g>
+</svg>

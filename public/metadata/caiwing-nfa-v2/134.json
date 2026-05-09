@@ -1,0 +1,62 @@
+{
+  "name": "财翼 NFA #134",
+  "description": "财翼 NFA is a Flap-minted dynamic NFT access pass for holder VPN, Clash import, marketplace orders, vault analytics, and AI Agent tools. Each token uses a deterministic visual seed so all 666 NFTs have distinct animated artwork.",
+  "image": "https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@main/public/assets/caiwing-nfa-v2/134.svg",
+  "animation_url": "https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@main/public/assets/caiwing-nfa-v2/134.svg",
+  "external_url": "https://v0-vite-wine.vercel.app/",
+  "background_color": "05070E",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "财翼 NFA"
+    },
+    {
+      "trait_type": "Max Supply",
+      "value": 666
+    },
+    {
+      "trait_type": "Mint Cost",
+      "value": "666 财翼 test / 666,666 财翼 production"
+    },
+    {
+      "trait_type": "Buy Tax",
+      "value": "1% test / 2% production"
+    },
+    {
+      "trait_type": "Sell Tax",
+      "value": "1% test / 4% production"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Wing Spectrum",
+      "value": "Aurora Blue"
+    },
+    {
+      "trait_type": "Signal Strength",
+      "value": "8.3"
+    },
+    {
+      "trait_type": "Orbit Class",
+      "value": "Lunar Relay"
+    },
+    {
+      "trait_type": "Utility Tier",
+      "value": "Agent Core"
+    },
+    {
+      "trait_type": "Evolution State",
+      "value": "Vaulted"
+    },
+    {
+      "trait_type": "Visual Seed",
+      "value": 178
+    },
+    {
+      "trait_type": "DNA",
+      "value": "CW-134-802880"
+    }
+  ]
+}
