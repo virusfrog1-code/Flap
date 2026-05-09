@@ -1,0 +1,58 @@
+{
+  "name": "财翼 NFA #234",
+  "description": "财翼 NFA is a Flap-minted dynamic NFT access pass for holder VPN, Clash import, marketplace orders, vault analytics, and AI Agent utilities. This v3 artwork keeps the original clear CaiWing visual and adds deterministic animated traits for each token.",
+  "image": "https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@main/public/assets/caiwing-nfa-v3/234.svg",
+  "animation_url": "https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@main/public/assets/caiwing-nfa-v3/234.svg",
+  "external_url": "https://v0-vite-wine.vercel.app/",
+  "background_color": "05070E",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "财翼 NFA"
+    },
+    {
+      "trait_type": "Max Supply",
+      "value": 666
+    },
+    {
+      "trait_type": "Mint Cost",
+      "value": "66 财翼 test / 666,666 财翼 production"
+    },
+    {
+      "trait_type": "Buy Tax",
+      "value": "1% test / 2% production"
+    },
+    {
+      "trait_type": "Sell Tax",
+      "value": "1% test / 4% production"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Prime"
+    },
+    {
+      "trait_type": "Wing Spectrum",
+      "value": "Nebula Mint"
+    },
+    {
+      "trait_type": "Signal Strength",
+      "value": "6.1"
+    },
+    {
+      "trait_type": "Orbit Class",
+      "value": "Nebula Gate"
+    },
+    {
+      "trait_type": "Utility Tier",
+      "value": "AI Plus"
+    },
+    {
+      "trait_type": "Evolution State",
+      "value": "Orbiting"
+    },
+    {
+      "trait_type": "DNA",
+      "value": "CW-234-164385"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "collection": "财翼 NFA",
+  "maxSupply": 666,
+  "imageMode": "per-token animated SVG with shared clear base.jpg",
+  "baseImage": "https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@main/public/assets/caiwing-nfa-v3/base.jpg",
+  "note": "Use this v3 directory for the next Flap external JSON metadata test. v2 is deprecated because embedded GIF-in-SVG can render blurry in Flap."
+}

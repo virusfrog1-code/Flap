@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-label="财翼 NFA #181">
+  <defs>
+    <clipPath id="clip"><rect width="720" height="720" rx="28" ry="28"/></clipPath>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2bd7ff"/>
+      <stop offset="48%" stop-color="#c59cff"/>
+      <stop offset="100%" stop-color="#05070e"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="58%">
+      <stop offset="0%" stop-color="#c59cff" stop-opacity="0.10"/>
+      <stop offset="58%" stop-color="#2bd7ff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes rotateA { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes rotateB { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      @keyframes pulse { 0%,100% { opacity:.38; transform: scale(.985); } 50% { opacity:.82; transform: scale(1.018); } }
+      @keyframes sweep { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -260; } }
+      .center { transform-origin: 360px 360px; }
+      .ringA { animation: rotateA 11s linear infinite, sweep 6s linear infinite; }
+      .ringB { animation: rotateB 17s linear infinite; }
+      .pulse { animation: pulse 5s ease-in-out infinite; transform-origin: 360px 360px; }
+      .label { font-family: Inter, Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="720" height="720" fill="#030611"/>
+    <image href="./base.jpg" x="0" y="0" width="720" height="720" preserveAspectRatio="xMidYMid slice"/>
+    <rect class="pulse" width="720" height="720" fill="url(#halo)"/>
+    <path d="M62 201 C152 117, 232 139, 316 266.5" fill="none" stroke="#c59cff" stroke-width="5" stroke-linecap="round" opacity="0.72" filter="url(#glow)">
+      <animate attributeName="stroke-dasharray" values="18 180;80 120;18 180" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M658 201 C568 117, 488 139, 404 266.5" fill="none" stroke="#2bd7ff" stroke-width="5" stroke-linecap="round" opacity="0.72" filter="url(#glow)">
+      <animate attributeName="stroke-dasharray" values="80 120;18 180;80 120" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <circle class="center ringA" cx="360" cy="360" r="249" fill="none" stroke="#c59cff" stroke-width="4" stroke-linecap="round" stroke-dasharray="15 27" opacity="0.76" filter="url(#glow)"/>
+    <circle class="center ringB" cx="360" cy="360" r="280" fill="none" stroke="#2bd7ff" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="27 48.6" opacity="0.62"/>
+    <rect x="7" y="7" width="706" height="706" rx="24" fill="none" stroke="url(#frame)" stroke-width="5"/>
+    <rect x="28" y="22" width="96" height="30" rx="15" fill="#070914" fill-opacity="0.82" stroke="#2bd7ff" stroke-opacity="0.56"/>
+    <text class="label" x="45" y="43" fill="#ffffff" font-size="16" font-weight="900">#181</text>
+    <rect x="546" y="22" width="142" height="30" rx="15" fill="#070914" fill-opacity="0.82" stroke="#c59cff" stroke-opacity="0.66"/>
+    <text class="label" x="564" y="43" fill="#c59cff" font-size="13" font-weight="900">Rare</text>
+    <rect x="36" y="620" width="648" height="66" rx="18" fill="#030611" fill-opacity="0.78" stroke="#2bd7ff" stroke-opacity="0.35"/>
+    <text class="label" x="56" y="648" fill="#ffffff" font-size="18" font-weight="900">财翼 NFA</text>
+    <text class="label" x="56" y="671" fill="#c59cff" font-size="13" font-weight="800">Solar Violet / Saturn Ring / Signal 6.2</text>
+    <text class="label" x="506" y="648" fill="#2bd7ff" font-size="12" font-weight="900">VPN Prime</text>
+    <text class="label" x="506" y="671" fill="#cbd6f7" font-size="11">Cooling · CW-181-611160</text>
+  </g>
+</svg>
