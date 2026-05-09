@@ -1,0 +1,33 @@
+{
+  "name": "财翼 NFA",
+  "description": "Shared 财翼 NFA metadata for Flap external JSON tests. For production, use the numbered tokenURI directory so every token has unique attributes.",
+  "image": "https://raw.githubusercontent.com/virusfrog1-code/Flap/main/public/assets/logo1.gif",
+  "animation_url": "https://raw.githubusercontent.com/virusfrog1-code/Flap/main/public/assets/logo1.gif",
+  "external_url": "https://v0-vite-wine.vercel.app/",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "财翼 NFA"
+    },
+    {
+      "trait_type": "Max Supply",
+      "value": 666
+    },
+    {
+      "trait_type": "Mint Cost",
+      "value": "666,666 财翼"
+    },
+    {
+      "trait_type": "Buy Tax",
+      "value": "2%"
+    },
+    {
+      "trait_type": "Sell Tax",
+      "value": "4%"
+    },
+    {
+      "trait_type": "Image Type",
+      "value": "Animated GIF"
+    }
+  ]
+}

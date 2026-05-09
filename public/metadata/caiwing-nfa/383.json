@@ -1,0 +1,57 @@
+{
+  "name": "财翼 NFA #383",
+  "description": "财翼 NFA is a Flap-minted dynamic NFT access pass for holder VPN, Clash import, marketplace orders, vault analytics, and AI Agent tools.",
+  "image": "https://raw.githubusercontent.com/virusfrog1-code/Flap/main/public/assets/logo1.gif",
+  "animation_url": "https://raw.githubusercontent.com/virusfrog1-code/Flap/main/public/assets/logo1.gif",
+  "external_url": "https://v0-vite-wine.vercel.app/",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "财翼 NFA"
+    },
+    {
+      "trait_type": "Max Supply",
+      "value": 666
+    },
+    {
+      "trait_type": "Mint Cost",
+      "value": "666,666 财翼"
+    },
+    {
+      "trait_type": "Buy Tax",
+      "value": "2%"
+    },
+    {
+      "trait_type": "Sell Tax",
+      "value": "4%"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Signal"
+    },
+    {
+      "trait_type": "Wing Spectrum",
+      "value": "Ion Azure"
+    },
+    {
+      "trait_type": "Signal Strength",
+      "value": "8.8"
+    },
+    {
+      "trait_type": "Orbit Class",
+      "value": "Nebula Gate"
+    },
+    {
+      "trait_type": "Utility Tier",
+      "value": "Market Maker"
+    },
+    {
+      "trait_type": "Evolution State",
+      "value": "Vaulted"
+    },
+    {
+      "trait_type": "DNA",
+      "value": "CW-383-032980"
+    }
+  ]
+}
