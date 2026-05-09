@@ -1,8 +1,8 @@
 {
   "name": "财翼 NFA #545",
   "description": "财翼 NFA is a Flap-minted dynamic NFT access pass for holder VPN, Clash import, marketplace orders, vault analytics, and AI Agent tools.",
-  "image": "https://raw.githubusercontent.com/virusfrog1-code/Flap/main/public/assets/logo1.gif",
-  "animation_url": "https://raw.githubusercontent.com/virusfrog1-code/Flap/main/public/assets/logo1.gif",
+  "image": "https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@main/public/assets/logo1.gif",
+  "animation_url": "https://cdn.jsdelivr.net/gh/virusfrog1-code/Flap@main/public/assets/logo1.gif",
   "external_url": "https://v0-vite-wine.vercel.app/",
   "attributes": [
     {
